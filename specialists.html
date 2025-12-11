@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VetFort - Наши специалисты</title>
+    <link rel="stylesheet" href="css/style_specialists.css">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- НАВИГАЦИЯ -->
+    <nav class="nav-content">
+            <a href="index.html" class="nav-logo">VetFort</a>
+            <ul class="nav-menu">
+                <li><a href="services.html">Услуги</a></li>
+                <li><a href="#">Ветклиники</a></li>
+                <li><a href="specialists.html">Специалисты</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+            <div class="phone-number">+7 981 123-45-67</div>
+    </nav>
+
+	<header>
+		<section class="container">
+			<div class="breadcrumbs">
+				<a href="index.html" class="breadcrumb-link">Главная</a>
+				<span class="breadcrumb-separator">•</span>
+				<span class="breadcrumb-current">Специалисты</span>
+			</div>
+
+			<h2>наши специалисты</h2>
+			<p class="page-description">
+				Обращайтесь за помощью только к профессионалам. Не вызывайте ветеринаров на дом с улицы, чтобы не навредить животному
+			</p>
+
+			<!-- ФИЛЬТР -->
+			<div class="specialties-grid">
+				<div class="specialty-item" onclick="toggleSpecialty(this)">Аллерголог</div>
+				<div class="specialty-item" onclick="toggleSpecialty(this)">Вирусолог</div>
+				<div class="specialty-item" onclick="toggleSpecialty(this)">Грумер</div>
+				<div class="specialty-item" onclick="toggleSpecialty(this)">Дерматолог</div>
+				<div class="specialty-item" onclick="toggleSpecialty(this)">Диетолог</div>
+				<div class="specialty-item" onclick="toggleSpecialty(this)">Онколог</div>
+				<div class="specialty-item" onclick="toggleSpecialty(this)">Орнитолог</div>
+				<div class="specialty-item" onclick="toggleSpecialty(this)">Стоматолог</div>
+				<div class="specialty-item" onclick="toggleSpecialty(this)">Хирург</div>
+				<div class="specialty-item" onclick="toggleSpecialty(this)">Экзотолог</div>
+				<div class="specialty-item" onclick="toggleSpecialty(this)">Эндокринолог</div>
+			</div>
+		</section>
+	</header>
+       
+	 <!-- СПЕЦИАЛИСТЫ -->
+	<section class="specialists-section">
+		<div class="container">
+			<div class="specialists-content">
+				<div class="specialists-cards">
+					<!-- Карточка 1 -->
+					<div class="specialist-card">
+						<div class="specialist-photo">
+							<img src="images/vet1.png" alt="Иванов Аркадий Викторович">
+						</div>
+						<div class="specialist-info">
+							<h3 class="specialist-name">иванов</h3>
+							<p class="specialist-patronymic">Аркадий Викторович</p>
+							<p class="specialist-position">Стоматолог, ведущий врач по экзотическим животным, ветеринарный врач экзотолог. Опыт более 7 лет</p>
+							<div class="card-footer">
+								<button class="details-btn">Подробнее</button>
+								<button class="round-btn">
+									<svg width="63" height="63" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M27 46L41 32.1314L27.0001 18.0002" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<!-- Карточка 2 -->
+					<div class="specialist-card">
+						<div class="specialist-photo">
+							<img src="images/vet2.png" alt="Воронцова Елизавета Сергеевна">
+						</div>
+						<div class="specialist-info">
+							<h3 class="specialist-name">воронцова</h3> 
+							<p class="specialist-patronymic">Елизавета Сергеевна</p>
+							<p class="specialist-position">Ветеринарный врач-терапевт. Опыт более 5 лет</p>
+							<div class="card-footer">
+								<button class="details-btn">Подробнее</button>
+								<button class="round-btn">
+									<svg width="63" height="63" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M27 46L41 32.1314L27.0001 18.0002" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<!-- Карточка 3 -->
+					<div class="specialist-card">
+						<div class="specialist-photo">
+							<img src="images/vet3.png" alt="Соколов Денис Игоревич">
+						</div>
+						<div class="specialist-info">
+							<h3 class="specialist-name">соколов</h3>
+							<p class="specialist-patronymic">Денис Игоревич</p>
+							<p class="specialist-position">Ветеринарный врач-терапевт, дерматолог, стоматолог, нефролог, мягкотажная хирургия. Опыт более 6 лет</p>
+							<div class="card-footer">
+								<button class="details-btn">Подробнее</button>
+								<button class="round-btn">
+									<svg width="63" height="63" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M27 46L41 32.1314L27.0001 18.0002" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<!-- Карточка 4 -->
+					<div class="specialist-card">
+						<div class="specialist-photo">
+							<img src="images/vet4.png" alt="Соколов Денис Игоревич">
+						</div>
+						<div class="specialist-info">
+							<h3 class="specialist-name">ковалева</h3>
+							<p class="specialist-patronymic">Анна Сергеевна</p>
+							<p class="specialist-position">Ветеринарный врач-герпетолог, ведущий специалист по рептилиям и амфибиям. Опыт более 9 лет</p>
+							<div class="card-footer">
+								<button class="details-btn">Подробнее</button>
+								<button class="round-btn">
+									<svg width="63" height="63" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M27 46L41 32.1314L27.0001 18.0002" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								</button>
+							</div>
+						</div>
+					</div>
+					
+					
+					<!-- Карточка 5 -->
+					<div class="specialist-card">
+						<div class="specialist-photo">
+							<img src="images/vet5.png" alt="Соколов Денис Игоревич">
+						</div>
+						<div class="specialist-info">
+							<h3 class="specialist-name">лебедев</h3>
+							<p class="specialist-patronymic">Артем Игоревич</p>
+							<p class="specialist-position">Ветеринарный врач-орнитолог, ратолог, специалист по экзотическим птицам и грызунам. <br> Опыт более 10 лет</p>
+							<div class="card-footer">
+								<button class="details-btn">Подробнее</button>
+								<button class="round-btn">
+									<svg width="63" height="63" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M27 46L41 32.1314L27.0001 18.0002" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								</button>
+							</div>
+						</div>
+					</div>
+					
+					
+					<!-- Карточка 6 -->
+					<div class="specialist-card">
+						<div class="specialist-photo">
+							<img src="images/vet6.png" alt="Соколов Денис Игоревич">
+						</div>
+						<div class="specialist-info">
+							<h3 class="specialist-name">волков</h3>
+							<p class="specialist-patronymic">Дмитрий Александрович</p>
+							<p class="specialist-position">Ветеринар-анестезиолог, заведующий отделением реанимации. Опыт более 12 лет</p>
+							<div class="card-footer">
+								<button class="details-btn">Подробнее</button>
+								<button class="round-btn">
+									<svg width="63" height="63" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M27 46L41 32.1314L27.0001 18.0002" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								</button>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Карточка 7 -->
+					<div class="specialist-card">
+						<div class="specialist-photo">
+							<img src="images/vet7.png" alt="Соколов Денис Игоревич">
+						</div>
+						<div class="specialist-info">
+							<h3 class="specialist-name">зайцев</h3>
+							<p class="specialist-patronymic">Григорий Павлович</p>
+							<p class="specialist-position">Ветеринарный врач-герпетолог, экзотолог, ратолог - универсальный специалист по экзотическим животным. Опыт более 15 лет</p>
+							<div class="card-footer">
+								<button class="details-btn">Подробнее</button>
+								<button class="round-btn">
+									<svg width="63" height="63" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M27 46L41 32.1314L27.0001 18.0002" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								</button>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Карточка 8 -->
+					<div class="specialist-card">
+						<div class="specialist-photo">
+							<img src="images/vet8.png" alt="Соколов Денис Игоревич">
+						</div>
+						<div class="specialist-info">
+							<h3 class="specialist-name">мельникова</h3>
+							<p class="specialist-patronymic">Оксана Викторовна</p>
+							<p class="specialist-position">Ветеринарный хирург, заведующая хирургическим отделением. Опыт более 12 лет</p>
+							<div class="card-footer">
+								<button class="details-btn">Подробнее</button>
+								<button class="round-btn">
+									<svg width="63" height="63" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M27 46L41 32.1314L27.0001 18.0002" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								</button>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Карточка 9 -->
+					<div class="specialist-card">
+						<div class="specialist-photo">
+							<img src="images/vet9.png" alt="Соколов Денис Игоревич">
+						</div>
+						<div class="specialist-info">
+							<h3 class="specialist-name">соколова</h3>
+							<p class="specialist-patronymic">Алиса Дмитриевна</p>
+							<p class="specialist-position">Грумер-стилист, заведующая груминг-салоном при клинике. Опыт более 8 лет</p>
+							<div class="card-footer">
+								<button class="details-btn">Подробнее</button>
+								<button class="round-btn">
+									<svg width="63" height="63" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M27 46L41 32.1314L27.0001 18.0002" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								</button>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- ОСТАЛИСЬ ВОПРОСЫ -->
+	<section class="questions-section">
+		<div class="container">
+			<div class="questions-content">
+				<div class="questions-form">
+					<h2 class="questions-title">остались вопросы?</h2>
+					<p class="questions-subtitle">Задайте их прямо сейчас!</p>
+
+					<form class="contact-form">
+						<div class="form-row">
+							<div class="form-group">
+								<label class="form-label">Ваше имя</label>
+								<input type="text" placeholder="Введите имя" class="form-input">
+							</div>
+							<div class="form-group">
+								<label class="form-label">Ваш телефон</label>
+								<input type="tel" placeholder="Введите телефон" class="form-input">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="form-label">Ваш комментарий</label>
+							<textarea placeholder="Введите комментарий" class="form-textarea"></textarea>
+						</div>
+
+						<div class="submit-with-icon">
+							<button type="button" class="btn btn-submit">Отправить</button>
+							<img src="images/time-icon.png" alt="Круглосуточно" class="time-icon">
+						</div>
+					</form>
+				</div>
+
+				<div class="questions-image">
+					<img src="images/dog1.png" alt="Собака">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ФУТЕР -->
+	<footer class="footer">
+		<div class="footer-container">
+			<div class="footer-content">
+				<div class="footer-brand">
+					<a href="index.html" class="footer-logo">VetFort</a>
+				</div>
+				<ul class="footer-menu">
+					<li><a href="services.html">Услуги</a></li>
+					<li><a href="#">Ветклиники</a></li>
+					<li><a href="specialists.html">Специалисты</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+				<div class="footer-contacts">
+					<div class="footer-phone">+7 981 123-45-67</div>
+					<div class="footer-time">Круглосуточно</div>
+				</div>
+			</div>
+
+			<div class="footer-bottom-row">
+				<div class="footer-social">
+					<a href="#" class="social-link">
+						<img src="images/tg.png" alt="Telegram" class="social-icon">
+					</a>
+					<a href="#" class="social-link">
+						<img src="images/vk.png" alt="VK" class="social-icon">
+					</a>
+				</div>
+				<div class="footer-bottom-text">
+					<p>Политика конфиденциальности</p>
+					<p>2025 © Городской ветеринарный центр</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<script src="js/form.js" defer></script>
+	<script src="js/filter.js" defer></script>
+		
+</body>
+</html>

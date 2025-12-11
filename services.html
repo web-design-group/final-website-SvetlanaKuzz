@@ -1,0 +1,1237 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ВетФорт - Услуги</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <link href="css/style_bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<!-- НАВИГАЦИЯ -->
+	<nav class="navbar navbar-expand-lg navbar-dark py-3 custom-navbar">
+		<div class="container">
+			<a class="navbar-brand fw-bold text-white" href="index.html">VetFort</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Переключить навигацию">
+				<!-- data-bs-target="#navbarNav" - что открывать/закрывать 
+					aria-controls="navbarNav" - связка кнопки и контента -->
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav mx-auto nav-links-spacing">
+					<!-- .mx-auto - margin-left и margin-right -->
+					<li class="nav-item">
+						<a class="nav-link active text-white" href="services.html">Услуги</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="#">Ветклиники</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="specialists.html">Специалисты</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="#">Контакты</a>
+					</li>
+				</ul>
+				<div class="phone-number text-white fw-bold">+7 981 123-45-67</div>
+			</div>
+		</div>
+	</nav>
+    
+    <section class="best-section">
+        <div class="container">
+            <!-- КРОШКИ -->
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Услуги</li>
+                </ol>
+            </nav>
+            
+            <h2 class="section-title-light">услуги и цены</h2>
+            <p class="page-description">
+                Полный спектр ветеринарных услуг от квалифицированных специалистов. Гарантия правильной диагностики и безопасного лечения
+            </p>
+            
+			<!-- g - gap
+				md - средние экраны 
+				lg - большие экраны 
+				sm - маленькие экраны-->
+			
+            <!-- КАРТОЧКИ -->
+			<div class="row g-4">
+				<!-- КОШКИ -->
+				<div class="col-md-6 col-lg-4">
+					
+					<div class="card best-card">
+						<img src="images/кот.jpg" class="card-img-top" alt="Кот карточка">
+						<div class="card-body card-content">
+							<h5 class="card-title">кошки</h5>
+							<p class="card-text">Полный спектр ветеринарных услуг для ваших любимцев: от профилактических осмотров и вакцинации до сложных диагностики и лечения</p>
+							<div class="card-footer">
+								<a href="#cats-section" class="details-btn">Подробнее</a>
+								<a href="#cats-section" class="round-btn">
+									<svg width="24" height="24" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M27 46L41 32.1314L27.0001 18.0002" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- СОБАКИ -->
+				<div class="col-md-6 col-lg-4">
+					<div class="card best-card">
+						<img src="images/собака.jpg" class="card-img-top" alt="Собака карточка">
+						<div class="card-body card-content">
+							<h5 class="card-title">собаки</h5>
+							<p class="card-text">Комплексное медицинское обслуживание для собак всех пород и возрастов. Современная диагностика и лечение</p>
+							<div class="card-footer">
+								<a href="#dogs-section" class="details-btn">Подробнее</a>
+								<a href="#dogs-section" class="round-btn">
+									<svg width="24" height="24" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M27 46L41 32.1314L27.0001 18.0002" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- ГРЫЗУНЫ -->
+				<div class="col-md-6 col-lg-4">
+					<div class="card best-card">
+						<img src="images/хомяк.jpg" class="card-img-top" alt="Хомяк карточка">
+						<div class="card-body card-content">
+							<h5 class="card-title">грызуны</h5>
+							<p class="card-text">Профессиональный уход за грызунами и другими мелкими млекопитающими. Бережное отношение и специализированное лечение</p>
+							<div class="card-footer">
+								<a href="#rodents-section" class="details-btn">Подробнее</a>
+								<a href="#rodents-section" class="round-btn">
+									<svg width="24" height="24" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M27 46L41 32.1314L27.0001 18.0002" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- ПТИЦЫ -->
+				<div class="col-md-6 col-lg-4">
+					<div class="card best-card">
+						<img src="images/попугай.jpg" class="card-img-top" alt="Попугай карточка">
+						<div class="card-body card-content">
+							<h5 class="card-title">птицы</h5>
+							<p class="card-text">Полный спектр ветеринарных услуг для птиц: от профилактических осмотров до сложного лечения. Учитываем все нюансы их физиологии и содержания</p>
+							<div class="card-footer">
+								<a href="#birds-section" class="details-btn">Подробнее</a>
+								<a href="#birds-section" class="round-btn">
+									<svg width="24" height="24" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M27 46L41 32.1314L27.0001 18.0002" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- РЕРТИЛИИ -->
+				<div class="col-md-6 col-lg-4">
+					<div class="card best-card">
+						<img src="images/ящерица.jpg" class="card-img-top" alt="Ящерица карточка">
+						<div class="card-body card-content">
+							<h5 class="card-title">рептилии</h5>
+							<p class="card-text">Специализированная ветеринарная помощь для рептилий и амфибий. Учитываем особенности их физиологии и содержания</p>
+							<div class="card-footer">
+								<a href="#reptiles-section" class="details-btn">Подробнее</a>
+								<a href="#reptiles-section" class="round-btn">
+									<svg width="24" height="24" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M27 46L41 32.1314L27.0001 18.0002" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- ЭКЗОТЫ -->
+				<div class="col-md-6 col-lg-4">
+					<div class="card best-card">
+						<img src="images/енот.jpg" class="card-img-top" alt="Енот карточка">
+						<div class="card-body card-content">
+							<h5 class="card-title">экзоты</h5>
+							<p class="card-text">Узкопрофильная ветеринарная помощь для экзотических животных. Лечение редких видов с учетом их специфики</p>
+							<div class="card-footer">
+								<a href="#exotics-section" class="details-btn">Подробнее</a>
+								<a href="#exotics-section" class="round-btn">
+									<svg width="24" height="24" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M27 46L41 32.1314L27.0001 18.0002" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+    </section>
+
+		<!-- АККОРДЕОН -->
+	<section class="accordion-sections">
+		<div class="container">
+			<!-- КОШКИ -->
+			<div class="service-section mb-5" id="cats-section">
+				<h2 class="mb-4 fw-bold fs-1">кошки</h2>
+				<div class="accordion" id="catsAccordion">
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#catsOne" aria-expanded="false" aria-controls="catsOne">
+								вакцинация
+							</button>
+						</h2>
+						<div id="catsOne" class="accordion-collapse collapse" data-bs-parent="#catsAccordion">
+							<div class="accordion-body p-0">
+								<div class="service-header">
+									<span class="service-name">Наименование услуги</span>
+									<span class="service-price">Стоимость, руб</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Вакцинация Мультифел-4</span>
+									<span class="service-price">3 000</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Вакцинация Рабифел</span>
+									<span class="service-price">1 600</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Вакцинация Биофел PCH (от панлейкопении, калицивирусной и герпесвирусной инфекций, бешенства)</span>
+									<span class="service-price">3 000</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Вакцинация Биофел PCHR (профилактика панлейкопении, калицивирусной инфекции, герпесвирусной инфекции и бешенства, начиная с 3-месячного возраста)</span>
+									<span class="service-price">4 300</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#catsTwo" aria-expanded="false" aria-controls="catsTwo">
+								хирургия
+							</button>
+						</h2>
+						<div id="catsTwo" class="accordion-collapse collapse" data-bs-parent="#catsAccordion">
+							<div class="accordion-body p-0">
+								<div class="service-header">
+									<span class="service-name">Наименование услуги</span>
+									<span class="service-price">Стоимость, руб</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Первичный прием хирурга</span>
+									<span class="service-price">4 600</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Повторный прием хирурга</span>
+									<span class="service-price">3 900</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Послеоперационный прием хирурга</span>
+									<span class="service-price">2 200</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Гастростомия</span>
+									<span class="service-price">от 18 600</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Диагностическая лапаротомия</span>
+									<span class="service-price">от 17 300</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Кесарево сечение</span>
+									<span class="service-price">17 600</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Резекция кишечника</span>
+									<span class="service-price">от 26 200</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Резекция печени</span>
+									<span class="service-price">от 26 200</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Спленэктомия</span>
+									<span class="service-price">от 26 200</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Цистотомия при мочекаменной болезни</span>
+									<span class="service-price">от 22 700</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#catsThree" aria-expanded="false" aria-controls="catsThree">
+								стерилизация и кастрация
+							</button>
+						</h2>
+						<div id="catsThree" class="accordion-collapse collapse" data-bs-parent="#catsAccordion">
+							<div class="accordion-body p-0">
+								<div class="service-header">
+									<span class="service-name">Наименование услуги</span>
+									<span class="service-price">Стоимость, руб</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Кастрация кота (орхифуникупэктомия, всё включено)</span>
+									<span class="service-price">8 800</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Орхифуникулэктомия при крипторхизие (кастрация крипторха, непопостная операция)</span>
+									<span class="service-price">7 100</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Орхифуникулэктомия при абдоминальном крипторхизме (кастрация крипторха, полостная операция)</span>
+									<span class="service-price">8 800</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Овариогистерэктомия - кошки (анестезия оплачивается отдельно)</span>
+									<span class="service-price">6 800</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Овариогистерэктомия - кошки (все включено)</span>
+									<span class="service-price">13 700</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#catsFour" aria-expanded="false" aria-controls="catsFour">
+								груминг
+							</button>
+						</h2>
+						<div id="catsFour" class="accordion-collapse collapse" data-bs-parent="#catsAccordion">
+							<div class="accordion-body p-0">
+								<div class="service-header">
+									<span class="service-name">Наименование услуги</span>
+									<span class="service-price">Стоимость, руб</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Вычес без мытья</span>
+									<span class="service-price">2 200</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Обработка от блох</span>
+									<span class="service-price">400</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Стрижка без мытья</span>
+									<span class="service-price">2 500</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Стрижка когтей</span>
+									<span class="service-price">500</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Стрижка с колтунами без мытья</span>
+									<span class="service-price">3 300</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Стрижка с колтунами с мытьем</span>
+									<span class="service-price">3 500</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Стрижка с мытьем</span>
+									<span class="service-price">3 300</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Экспресс-линька кошки (комплекс)</span>
+									<span class="service-price">3 500</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				 <div class="text-start mt-4">
+					<button type="button" class="cta-btn">Онлайн-запись</button>
+				</div>
+			</div>
+
+			<!-- СОБАКИ -->
+			<div class="service-section mb-5" id="dogs-section">
+				<h2 class="mb-4 fw-bold fs-1">собаки</h2>
+				<div class="accordion" id="dogsAccordion">
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dogsOne" aria-expanded="false" aria-controls="dogsOne">
+								вакцинация
+							</button>
+						</h2>
+						<div id="dogsOne" class="accordion-collapse collapse" data-bs-parent="#dogsAccordion">
+							<div class="accordion-body p-0">
+								<div class="service-header">
+									<span class="service-name">Наименование услуги</span>
+									<span class="service-price">Стоимость, руб</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Вакцинация Мультикан-6</span>
+									<span class="service-price">2 500</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Вакцинация Мультикан-8</span>
+									<span class="service-price">4 300</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Вакцинация Рабикс</span>
+									<span class="service-price">1 800</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Вакцинация Рабикан</span>
+									<span class="service-price">1 500</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Вакцинация Биокан DHPPI+L</span>
+									<span class="service-price">3 000</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Вакцинация Биокан DHPPI+LR</span>
+									<span class="service-price">4 300</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dogsTwo" aria-expanded="false" aria-controls="dogsTwo">
+								хирургия
+							</button>
+						</h2>
+						<div id="dogsTwo" class="accordion-collapse collapse" data-bs-parent="#dogsAccordion">
+							<div class="accordion-body p-0">
+								<div class="service-header">
+									<span class="service-name">Наименование услуги</span>
+									<span class="service-price">Стоимость, руб</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Первичный прием хирурга</span>
+									<span class="service-price">4 600</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Повторный прием хирурга</span>
+									<span class="service-price">3 900</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Послеоперационный прием хирурга</span>
+									<span class="service-price">2 200</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Гастростомия</span>
+									<span class="service-price">от 30 000</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Диагностическая лапаротомия</span>
+									<span class="service-price">от 17 300</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Кесарево сечение</span>
+									<span class="service-price">17 600</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Лапароскопическая овариогистерэктомия (все включено)</span>
+									<span class="service-price">от 19 000</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Резекция кишечника</span>
+									<span class="service-price">от 26 200</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Резекция печени</span>
+									<span class="service-price">от 26 200</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Холицистэктомия</span>
+									<span class="service-price">32 100</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dogsThree" aria-expanded="false" aria-controls="dogsThree">
+								кастрация и стерилизация
+							</button>
+						</h2>
+						<div id="dogsThree" class="accordion-collapse collapse" data-bs-parent="#dogsAccordion">
+							<div class="accordion-body p-0">
+								<div class="service-header">
+									<span class="service-name">Наименование услуги</span>
+									<span class="service-price">Стоимость, руб</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Орхифуникулктомия при крипторхизие</span>
+									<span class="service-price">8 800</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Орхифуникулэктомия при абдоминальном крипторхизме</span>
+									<span class="service-price">18 200</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Кастрация кобеля (орхифуникулэктомия)</span>
+									<span class="service-price">10 400</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Овариогистерэктомия</span>
+									<span class="service-price">от 13 700</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dogsFour" aria-expanded="false" aria-controls="dogsFour">
+								груминг
+							</button>
+						</h2>
+						<div id="dogsFour" class="accordion-collapse collapse" data-bs-parent="#dogsAccordion">
+							<div class="accordion-body p-0">
+								<div class="service-header">
+									<span class="service-name">Наименование услуги</span>
+									<span class="service-price">Стоимость, руб</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Гигиеническая стрижка</span>
+									<span class="service-price">от 2 000</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Комплексная стрижка</span>
+									<span class="service-price">от 1 300</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Тримминг</span>
+									<span class="service-price">от 3 000</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Экспресс-линька</span>
+									<span class="service-price">от 3 600</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Чистка ушей</span>
+									<span class="service-price">200</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="text-start mt-4">
+					<button type="button" class="cta-btn">Онлайн-запись</button>
+				</div>
+			</div>
+
+			<!-- ГРЫЗУНЫ -->
+			<div class="service-section mb-5" id="rodents-section">
+				<h2 class="mb-4 fw-bold fs-1">грызуны</h2>
+				<div class="accordion" id="rodentsAccordion">
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rodentsOne" aria-expanded="false" aria-controls="rodentsOne">
+								консультация и диагностика
+							</button>
+						</h2>
+						<div id="rodentsOne" class="accordion-collapse collapse" data-bs-parent="#rodentsAccordion">
+							<div class="accordion-body p-0">
+								<div class="service-header">
+									<span class="service-name">Наименование услуги</span>
+									<span class="service-price">Стоимость, руб</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Первичный прием специалиста по грызунам</span>
+									<span class="service-price">2 500</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Повторный прием специалиста по грызунам</span>
+									<span class="service-price">2 000</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">УЗИ одного органа грызунам</span>
+									<span class="service-price">1 200</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">УЗИ брюшной полости грызунам</span>
+									<span class="service-price">2 350</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Дентальное обследование без коррекции</span>
+									<span class="service-price">1 350</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Скотч-тест на выявление паразитов</span>
+									<span class="service-price">500</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rodentsTwo" aria-expanded="false" aria-controls="rodentsTwo">
+								хирургия
+							</button>
+						</h2>
+						<div id="rodentsTwo" class="accordion-collapse collapse" data-bs-parent="#rodentsAccordion">
+							<div class="accordion-body p-0">
+								<div class="service-header">
+									<span class="service-name">Наименование услуги</span>
+									<span class="service-price">Стоимость, руб</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Удаление параанальных желез у хорька</span>
+									<span class="service-price">уточняйте</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Коррекция зубов (все зубы) 1 категория</span>
+									<span class="service-price">2 700</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Коррекция резцов</span>
+									<span class="service-price">1 000</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rodentsThree" aria-expanded="false" aria-controls="rodentsThree">
+								кастрация и стерилизация
+							</button>
+						</h2>
+						<div id="rodentsThree" class="accordion-collapse collapse" data-bs-parent="#rodentsAccordion">
+							<div class="accordion-body p-0">
+								<div class="service-header">
+									<span class="service-name">Наименование услуги</span>
+									<span class="service-price">Стоимость, руб</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Кастрация: кролик, хорёк</span>
+									<span class="service-price">2 750</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Кастрация: крыса, хомяк</span>
+									<span class="service-price">2 250</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Кастрация: морская свинка, шиншилла</span>
+									<span class="service-price">2 350</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Стерилизация: кролик, хорёк</span>
+									<span class="service-price">4 550</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Стерилизация: крыса, хомяк</span>
+									<span class="service-price">3 350</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Стерилизация: морская свинка, шиншилла</span>
+									<span class="service-price">4 400</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rodentsFour" aria-expanded="false" aria-controls="rodentsFour">
+								гигиена
+							</button>
+						</h2>
+						<div id="rodentsFour" class="accordion-collapse collapse" data-bs-parent="#rodentsAccordion">
+							<div class="accordion-body p-0">
+								<div class="service-header">
+									<span class="service-name">Наименование услуги</span>
+									<span class="service-price">Стоимость, руб</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Гигиеническая стрижка кролика 1 категория</span>
+									<span class="service-price">2 500</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Стрижка когтей: кролики, морские свинки, шиншиллы</span>
+									<span class="service-price">650</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Анестезия 1 категория (для процедур)</span>
+									<span class="service-price">2 000</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- ПТИЦЫ -->
+			<div class="service-section mb-5" id="birds-section">
+				<h2 class="mb-4 fw-bold fs-1">птицы</h2>
+				<div class="accordion" id="birdsAccordion">
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#birdsOne" aria-expanded="false" aria-controls="birdsOne">
+								прием и консультация
+							</button>
+						</h2>
+						<div id="birdsOne" class="accordion-collapse collapse" data-bs-parent="#birdsAccordion">
+							<div class="accordion-body p-0">
+								<div class="service-header">
+									<span class="service-name">Наименование услуги</span>
+									<span class="service-price">Стоимость, руб</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Первичный прием специалиста орнитолога</span>
+									<span class="service-price">2 500</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Повторный прием</span>
+									<span class="service-price">2 000</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Консультация по анализам</span>
+									<span class="service-price">1 000</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Профилактический осмотр</span>
+									<span class="service-price">1 500</span>
+								</div>    
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#birdsTwo" aria-expanded="false" aria-controls="birdsTwo">
+								диагностика и процедуры
+							</button>
+						</h2>
+						<div id="birdsTwo" class="accordion-collapse collapse" data-bs-parent="#birdsAccordion">
+							<div class="accordion-body p-0">
+								<div class="service-header">
+									<span class="service-name">Наименование услуги</span>
+									<span class="service-price">Стоимость, руб</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Микроскопия помёта</span>
+									<span class="service-price">1 600</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Взятие крови, смывов</span>
+									<span class="service-price">от 600</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">УЗИ обзорное и систем органов</span>
+									<span class="service-price">2 500</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Все виды анализов крови</span>
+									<span class="service-price">от 1 800</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Фиксация, катетеры, инъекции</span>
+									<span class="service-price">от 300</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Санация хоан, дача через зонд</span>
+									<span class="service-price">от 600</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#birdsThree" aria-expanded="false" aria-controls="birdsThree">
+								гигиена
+							</button>
+						</h2>
+						<div id="birdsThree" class="accordion-collapse collapse" data-bs-parent="#birdsAccordion">
+							<div class="accordion-body p-0">
+								<div class="service-header">
+									<span class="service-name">Наименование услуги</span>
+									<span class="service-price">Стоимость, руб</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Стрижка когтей, клюва, крыльев</span>
+									<span class="service-price">от 800</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Чипирование птиц</span>
+									<span class="service-price">3 000</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Обработка от паразитов</span>
+									<span class="service-price">1 000</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Санитарная обработка перьев</span>
+									<span class="service-price">1 500</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="text-start mt-4">
+					<button type="button" class="cta-btn">Онлайн-запись</button>
+				</div>
+			</div>
+
+			<!-- РЕПТИЛИИ -->
+			<div class="service-section mb-5" id="reptiles-section">
+				<h2 class="mb-4 fw-bold fs-1">рептилии</h2>
+				<div class="accordion" id="reptilesAccordion">
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#reptilesOne" aria-expanded="false" aria-controls="reptilesOne">
+								прием и консультации
+							</button>
+						</h2>
+						<div id="reptilesOne" class="accordion-collapse collapse" data-bs-parent="#reptilesAccordion">
+							<div class="accordion-body p-0">
+								<div class="service-header">
+									<span class="service-name">Наименование услуги</span>
+									<span class="service-price">Стоимость, руб</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Первичный прием специалиста герпетолога</span>
+									<span class="service-price">2 500</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Повторный прием по той же проблеме</span>
+									<span class="service-price">2 000</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Консультация по результатам анализов</span>
+									<span class="service-price">1 000</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Чипирование экзотических животных</span>
+									<span class="service-price">3 000</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#reptilesTwo" aria-expanded="false" aria-controls="reptilesTwo">
+								диагностика и процедуры
+							</button>
+						</h2>
+						<div id="reptilesTwo" class="accordion-collapse collapse" data-bs-parent="#reptilesAccordion">
+							<div class="accordion-body p-0">
+								<div class="service-header">
+									<span class="service-name">Наименование услуги</span>
+									<span class="service-price">Стоимость, руб</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">УЗИ обзорное</span>
+									<span class="service-price">3 500</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">УЗИ системы органов</span>
+									<span class="service-price">2 500</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Постановка внутривенного катетера</span>
+									<span class="service-price">1 500</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Постановка внутрикостного катетера</span>
+									<span class="service-price">1 800</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Фиксация</span>
+									<span class="service-price">700</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#reptilesThree" aria-expanded="false" aria-controls="reptilesThree">
+								анализы
+							</button>
+						</h2>
+						<div id="reptilesThree" class="accordion-collapse collapse" data-bs-parent="#reptilesAccordion">
+							<div class="accordion-body p-0">
+								<div class="service-header">
+									<span class="service-name">Наименование услуги</span>
+									<span class="service-price">Стоимость, руб</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Микроскопия помёта</span>
+									<span class="service-price">1 600</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Санация ротовой полости</span>
+									<span class="service-price">1 500</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Дача через зонд</span>
+									<span class="service-price">600</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Взятие смывов</span>
+									<span class="service-price">600</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Взятие крови</span>
+									<span class="service-price">1 200</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#reptilesFour" aria-expanded="false" aria-controls="reptilesFour">
+								гигиена
+							</button>
+						</h2>
+						<div id="reptilesFour" class="accordion-collapse collapse" data-bs-parent="#reptilesAccordion">
+							<div class="accordion-body p-0">
+								<div class="service-header">
+									<span class="service-name">Наименование услуги</span>
+									<span class="service-price">Стоимость, руб</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Стрижка когтей/коготков</span>
+									<span class="service-price">800</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Обработка от паразитов</span>
+									<span class="service-price">1 000</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Профилактический осмотр</span>
+									<span class="service-price">1 500</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="text-start mt-4">
+					<button type="button" class="cta-btn">Онлайн-запись</button>
+				</div>
+			</div>
+
+			<!-- ЭКЗОТЫ -->
+			<div class="service-section mb-5" id="exotics-section">
+				<h2 class="mb-4 fw-bold fs-1">экзоты</h2>
+				<div class="accordion" id="exoticsAccordion">
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exoticsOne" aria-expanded="false" aria-controls="exoticsOne">
+								прием и консультация
+							</button>
+						</h2>
+						<div id="exoticsOne" class="accordion-collapse collapse" data-bs-parent="#exoticsAccordion">
+							<div class="accordion-body p-0">
+								<div class="service-header">
+									<span class="service-name">Наименование услуги</span>
+									<span class="service-price">Стоимость, руб</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Первичный прием специалиста по экзотическим животным</span>
+									<span class="service-price">2 800</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Повторный прием (в течение месяца)</span>
+									<span class="service-price">2 200</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Консультация по результатам анализов</span>
+									<span class="service-price">1 200</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Чипирование экзотических животных</span>
+									<span class="service-price">3 500</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Профилактический осмотр</span>
+									<span class="service-price">1 800</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exoticsTwo" aria-expanded="false" aria-controls="exoticsTwo">
+								диагностика и процедуры
+							</button>
+						</h2>
+						<div id="exoticsTwo" class="accordion-collapse collapse" data-bs-parent="#exoticsAccordion">
+							<div class="accordion-body p-0">
+								<div class="service-header">
+									<span class="service-name">Наименование услуги</span>
+									<span class="service-price">Стоимость, руб</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">УЗИ обзорное для экзотов</span>
+									<span class="service-price">4 000</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">УЗИ системы органов</span>
+									<span class="service-price">3 000</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Рентгенологическое исследование</span>
+									<span class="service-price">3 200</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Эндоскопия</span>
+									<span class="service-price">5 500</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Постановка внутривенного катетера</span>
+									<span class="service-price">2 800</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Постановка внутрикостного катетера</span>
+									<span class="service-price">2 200</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Инфузионная терапия (капельница)</span>
+									<span class="service-price">1 500</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Фиксация животного</span>
+									<span class="service-price">800</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exoticsThree" aria-expanded="false" aria-controls="exoticsThree">
+								анализы
+							</button>
+						</h2>
+						<div id="exoticsThree" class="accordion-collapse collapse" data-bs-parent="#exoticsAccordion">
+							<div class="accordion-body p-0">
+								<div class="service-header">
+									<span class="service-name">Наименование услуги</span>
+									<span class="service-price">Стоимость, руб</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Общий клинический анализ крови</span>
+									<span class="service-price">2 000</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Биохимический анализ крови</span>
+									<span class="service-price">2 800</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Микроскопия помёта</span>
+									<span class="service-price">1 800</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Бактериологический посев</span>
+									<span class="service-price">2 500</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Цитологическое исследование</span>
+									<span class="service-price">2 200</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Взятие крови</span>
+									<span class="service-price">1 500</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Взятие смывов, мазков</span>
+									<span class="service-price">700</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exoticsFour" aria-expanded="false" aria-controls="exoticsFour">
+								гигиена
+							</button>
+						</h2>
+						<div id="exoticsFour" class="accordion-collapse collapse" data-bs-parent="#exoticsAccordion">
+							<div class="accordion-body p-0">
+								<div class="service-header">
+									<span class="service-name">Наименование услуги</span>
+									<span class="service-price">Стоимость, руб</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Санация ротовой полости</span>
+									<span class="service-price">1 800</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Стрижка когтей/коготков</span>
+									<span class="service-price">900</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Обработка от эктопаразитов</span>
+									<span class="service-price">1 200</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Чистка паразиальных желез (хорьки)</span>
+									<span class="service-price">1 500</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Гигиеническая стрижка шерсти</span>
+									<span class="service-price">2 000</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exoticsFive" aria-expanded="false" aria-controls="exoticsFive">
+								хирургия
+							</button>
+						</h2>
+						<div id="exoticsFive" class="accordion-collapse collapse" data-bs-parent="#exoticsAccordion">
+							<div class="accordion-body p-0">
+								<div class="service-header">
+									<span class="service-name">Наименование услуги</span>
+									<span class="service-price">Стоимость, руб</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Анестезия для экзотических животных</span>
+									<span class="service-price">2 500</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Кастрация/стерилизация хорьков</span>
+									<span class="service-price">от 5 000</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Удаление новообразований</span>
+									<span class="service-price">от 4 000</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Хирургическая обработка ран</span>
+									<span class="service-price">300</span>
+								</div>
+								<div class="service-item">
+									<span class="service-name">Ампутация хвоста/конечности</span>
+									<span class="service-price">от 4 500</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="text-start mt-4">
+					<button type="button" class="cta-btn">Онлайн-запись</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<!-- ФОРМА -->
+	<section class="questions-section">
+		<div class="container">
+			<div class="row align-items-center">
+
+				<div class="col-12 col-lg-6">
+					<div class="questions-form">
+						<h2 class="questions-title">остались вопросы?</h2>
+						<p class="questions-subtitle">Задайте их прямо сейчас!</p>
+
+						<form class="contact-form">
+							<div class="row g-3 mb-3">
+								<div class="col-12 col-sm-6">
+									<label class="form-label">Ваше имя</label>
+									<input type="text" placeholder="Введите имя" class="form-control form-input">
+								</div>
+								<div class="col-12 col-sm-6">
+									<label class="form-label">Ваш телефон</label>
+									<input type="tel" placeholder="Введите телефон" class="form-control form-input">
+								</div>
+							</div>
+
+							<div class="mb-3">
+								<label class="form-label">Ваш комментарий</label>
+								<textarea placeholder="Введите комментарий" class="form-control form-textarea" rows="3"></textarea>
+							</div>
+
+							<div class="row align-items-center">
+								<div class="col-12 col-sm-6 order-1">
+									<button type="button" class="btn-submit w-100">Отправить</button>
+								</div>
+								<div class="col-12 col-sm-6 order-2 text-center text-sm-end mb-2 mb-sm-0">
+									<img src="images/time-icon.png" alt="Круглосуточно" class="time-icon">
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+
+				<div class="col-12 col-lg-6">
+					<div class="questions-image mt-4 mt-lg-0">
+						<img src="images/кошка_форма3.png" alt="Кот" class="img-fluid">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ФУТЕР -->
+	<footer class="footer">
+		<div class="container">
+
+			<div class="d-flex flex-column flex-lg-row align-items-center justify-content-between py-1 py-lg-2 footer-top">
+
+				<div class="footer-logo-wrapper mb-3 mb-lg-0 order-1 order-lg-1 d-flex justify-content-lg-start">
+					<a href="index.html" class="footer-logo">VetFort</a>
+				</div>
+
+
+				<ul class="footer-menu d-flex flex-wrap justify-content-center gap-2 gap-lg-4 mb-3 mb-lg-0 order-2 order-lg-2 flex-lg-grow-1">
+					<li><a href="services.html">Услуги</a></li>
+					<li><a href="#">Ветклиники</a></li>
+					<li><a href="specialists.html">Специалисты</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+
+
+				<div class="footer-contact text-center text-lg-end mb-3 mb-lg-0 order-3 order-lg-3 d-flex justify-content-lg-end ">
+					<div class = "phone-time">
+						<div class="footer-phone">+7 981 123-45-67</div>
+						<div class="footer-time">Круглосуточно</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="d-flex flex-column flex-lg-row align-items-center justify-content-between py-3 pt-lg-5 footer-bottom">
+
+				<div class="footer-social d-flex justify-content-center justify-content-lg-start mb-3 mb-lg-0 order-1 order-lg-1">
+					<a href="#" class="social-link">
+						<img src="images/tg.png" alt="Telegram" class="social-icon">
+					</a>
+					<a href="#" class="social-link">
+						<img src="images/vk.png" alt="VK" class="social-icon">
+					</a>
+				</div>
+
+				<div class="footer-bottom-text text-center mb-3 mb-lg-0 order-2 order-lg-2">
+					<p class="mb-1">Политика конфиденциальности</p>
+					<p class="mb-0">2025 © Городской ветеринарный центр</p>
+				</div>
+
+				<div class="footer-placeholder d-none d-lg-block order-3 order-lg-3"></div>
+			</div>
+		</div>
+	</footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	
+	<script src="js/form.js" defer></script>
+
+	
+</body>
+</html>
